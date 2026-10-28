@@ -107,7 +107,8 @@ section.s{padding:72px 0;scroll-margin-top:72px}
 .rows div{display:flex;justify-content:space-between;gap:12px;padding:10px 0;border-top:1px solid var(--line);font-size:17px;color:var(--bone3)}
 .rows b{color:var(--bone);font-weight:600;text-align:right}
 .plan .btn{margin-top:4px}
-@media (min-width:900px){.plans{grid-template-columns:repeat(3,1fr);align-items:stretch}}
+@media (min-width:900px){.plans{grid-template-columns:repeat(2,1fr);align-items:stretch}}
+@media (min-width:1100px){.plans{grid-template-columns:repeat(4,1fr)}}
 
 /* every plan */
 .ticks{display:grid;gap:12px;list-style:none;margin:0;padding:0}
@@ -167,7 +168,7 @@ footer p+p{margin-top:8px}
 .opt h3{font-size:26px;font-weight:600}
 .opt .big{font-family:var(--serif);font-size:58px;line-height:.9;color:var(--gold2);white-space:nowrap}
 .opt p{color:var(--bone2)}
-.mini{display:grid;grid-template-columns:repeat(3,1fr);gap:8px}
+.mini{display:grid;grid-template-columns:repeat(auto-fit,minmax(130px,1fr));gap:8px}
 .mini div{background:var(--ink);border-radius:12px;padding:12px;font-size:16px;color:var(--bone3);line-height:1.35;min-width:0}
 .mini b{display:block;color:var(--bone);font-size:21px;font-weight:600;font-variant-numeric:tabular-nums}
 .opt ul{list-style:none;margin:0;padding:0;display:grid;gap:8px}
@@ -272,7 +273,7 @@ footer p+p{margin-top:8px}
     <div>
       <span class="eyebrow">Sign-off · Wed 28 Oct</span>
       <h1>Before anything <em>goes out.</em></h1>
-      <p class="lede">6 things to check. Reply to Brandon on WhatsApp with the number and yes, or what to change. Like: "1 yes, 2 yes, 3 change Scale".</p>
+      <p class="lede">8 things to check. Reply to Brandon on WhatsApp with the number and yes, or what to change. Like: "1 yes, 2 yes, 3 change Scale".</p>
     </div>
   </div>
 </section>
@@ -280,8 +281,23 @@ footer p+p{margin-top:8px}
 <section class="s" style="padding-top:0">
   <div class="wrap" style="display:grid;gap:16px">
 
+    <article class="plan pick rv">
+      <div class="pn"><h3>1 · Starter Lite</h3><span class="tag">New</span></div>
+      <div class="rows">
+        <div>Price<b>A$2,000 + GST a month (A$2,200)</b></div>
+        <div>Setup, month 1 only<b>A$750 + GST (A$825)</b></div>
+        <div>Minimum<b>3 months</b></div>
+        <div>Each month<b>1 premium 30 s film</b></div>
+        <div>Cut from it<b>3 reels + 4 carousels</b></div>
+        <div>Total<b>8 posts a month, 2 a week</b></div>
+        <div>Plus<b>every video and image to reuse</b></div>
+      </div>
+      <p class="alt">This is the "two grand a month" Ricky heard on the call.</p>
+      <p class="for">👉 Reply "1 yes" or "1 change …"</p>
+    </article>
+
     <article class="plan rv">
-      <div class="pn"><h3>1 · Brands prices</h3></div>
+      <div class="pn"><h3>2 · Brands prices</h3></div>
       <div class="rows">
         <div>Starter<b>A$2,795 a month</b></div>
         <div>Growth (recommended)<b>A$3,795 a month</b></div>
@@ -290,54 +306,81 @@ footer p+p{margin-top:8px}
         <div>Add-ons<b>Hook A$95 · Re-cut A$195 · Character A$395 · Rush +30%</b></div>
       </div>
       <p class="alt">GST included. 3 months minimum, then 30 days notice.</p>
+      <p class="for">👉 Reply "2 yes" or "2 change …"</p>
     </article>
 
     <article class="plan rv">
-      <div class="pn"><h3>2 · Property prices</h3></div>
+      <div class="pn"><h3>3 · Property prices</h3></div>
       <div class="rows">
         <div>Try one scene<b>A$1,495</b></div>
         <div>Full launch film (recommended)<b>A$6,495</b></div>
-        <div>Monthly<b>from A$2,795</b></div>
-        <div>Listing hooks for agents<b>A$495 a listing</b></div>
+        <div>Monthly<b>from A$2,795 a month</b></div>
+        <div>Listing hooks for agents<b>A$395 a listing</b></div>
       </div>
       <p class="alt">86 Hedges was A$3,750 and took far more work than that paid.</p>
+      <p class="for">👉 Reply "3 yes" or "3 change …"</p>
     </article>
 
     <article class="plan rv">
-      <div class="pn"><h3>3 · The price guide clients see</h3></div>
-      <p class="for">Property and Brands, split like the website.</p>
+      <div class="pn"><h3>4 · The price guide clients see</h3></div>
+      <p class="for">Property and Brands, split like the website. Is it good to send?</p>
       <a class="btn gold" href="https://d43-git.github.io/aurian-guide-k7q2/#property">Open the price guide ↗</a>
+      <p class="for">👉 Reply "4 yes" or "4 change …"</p>
     </article>
 
     <article class="plan rv">
-      <div class="pn"><h3>4 · Ricky's deal (Nexus Marketing)</h3></div>
+      <div class="pn"><h3>5 · Ricky's deal (Nexus Marketing)</h3></div>
       <div class="rows">
         <div>Referral<b>10% before GST, 12 months</b></div>
-        <div>Or white-label<b>he buys at 15% off</b></div>
+        <div>Or white-label<b>he buys at 15% off, incl GST</b></div>
         <div>Property jobs<b>same 10%</b></div>
       </div>
       <a class="btn line" href="https://d43-git.github.io/aurian-nexus-r9m4x/">Open Ricky's page ↗</a>
+      <p class="for">👉 Reply "5 yes" or "5 change …"</p>
     </article>
 
     <article class="plan rv">
-      <div class="pn"><h3>5 · Mates and clients referral deal</h3></div>
+      <div class="pn"><h3>6 · Mates and clients referral deal</h3></div>
       <div class="rows">
         <div>Their first payment<b>15%</b></div>
-        <div>Then each month<b>5% for 6 months</b></div>
+        <div>Then each month<b>5% for the next 6 months</b></div>
         <div>Worked out<b>before GST, once paid</b></div>
+        <div>Starter example, all up<b>A$1,143</b></div>
       </div>
       <p class="alt">Carol keeps the 12 months she was promised in August.</p>
       <a class="btn line" href="https://d43-git.github.io/aurian-guide-k7q2/refer/">Open the referral page ↗</a>
+      <p class="for">👉 Reply "6 yes" or "6 change …"</p>
     </article>
 
     <article class="plan rv">
-      <div class="pn"><h3>6 · Segara proposal for Beau Stopka</h3></div>
+      <div class="pn"><h3>7 · Segara proposal for Beau Stopka</h3></div>
       <div class="rows">
         <div>Segara Taster<b>A$1,495 · 1 scene, 3 voice-overs</b></div>
         <div>Segara Test Pack<b>A$3,495 · 12 videos</b></div>
-        <div>Segara 40<b>A$5,995 · 40 videos</b></div>
+        <div>Segara 40 <span class="tag" style="margin-left:6px">New price</span><b>A$7,495 · 40 videos</b></div>
       </div>
       <a class="btn line" href="https://d43-git.github.io/aurian-guide-k7q2/segara-b4t7/">Open Beau's page ↗</a>
+      <p class="for">👉 Reply "7 yes" or "7 change …"</p>
+    </article>
+
+    <article class="plan rv">
+      <div class="pn"><h3>8 · Wording and legal</h3></div>
+      <div class="rows">
+        <div>How we describe it<b>"AI video, with real footage mixed in when needed."</b></div>
+        <div>Legal line<b>"Aurian Haus is a brand operated by The Trustee for House of Hansen Trust, ABN 80 287 120 663."</b></div>
+        <div>Ricky white-label<b>He pays within 7 days of our invoice, even if his client is late</b></div>
+        <div>Ricky white-label<b>We don't approach his clients for 12 months after the work ends</b></div>
+      </div>
+      <p class="for">👉 Reply "8 yes" or "8 change …"</p>
+    </article>
+
+    <article class="plan rv">
+      <div class="pn"><h3>For your eyes only: 86 Hedges before and after</h3></div>
+      <div style="display:grid;grid-template-columns:1fr 1fr;gap:8px">
+        <img src="img-ba/prop-site-today.webp" alt="Real drone photo of the 86 Hedges site today" style="border-radius:12px;width:100%">
+        <img src="img-ba/prop-site-built.webp" alt="The same street with the AI concept building" style="border-radius:12px;width:100%">
+      </div>
+      <p class="alt">Taken off the client pages until Kollosche says we can use it. Tell Brandon if you want to ask them.</p>
     </article>
 
     <p class="hint" style="display:block">The website and first Instagram posts come to you separately from Brandon.</p>
